@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tech-Constructions</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        nav {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    background: #3fa46a;
+  }
+  
+  nav a {
+    transition: 0.3s ease;
+    background: #3fa46a;
+    color: white;
+    font-size:15 px;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom : 4px solid transparent;
+    padding: 20px 0;
+    margin:0 5px;
+  }
+  nav a:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0; 
+  }
+  body{
+    background-color: #3fa46a;
+  }
+
+  .img-size{
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sidebar{
+    height: 350px;
+    margin-top: 20px;
+}
+#banner{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.img-card-size{
+  height: 200px;
+  width:230px;
+}
+.style-icon{
+  color: black;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  text-align: center;
+
+}
+.elevate:hover{
+    transform: scale(1.1);
+
+}img-card-size
+.elevate{
+    transition: 0.6s ease;
+}
+#h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+</style>
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span style="color: gold; font-weight: 900; text-decoration: overline;">Tech-Constructions</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="ourprofile.html">Profile</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+            <li class="nav-item navbar-nav nav-link dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="dropDown"> <img
+                src="images/folder1/overwater-bungalows.jpg" alt="" width="50px" height="50px" class="rounded-pill"> Admin
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li> <a href="tabs.html" class="dropdown-item"> <span></span> My Profile</a> </li>
+                    <hr class="dropdown-divider">
+                <li> <a href="#" class="dropdown-item"> Logout</a> </li>
+                <hr class="dropdown-divider">
+                
+                <li> <a href="#" class="dropdown-item"> Profile </a> </li>
+                <hr class="dropdown-divider">
+                <li>
+                </li>
+                <li> <a href="#" class="dropdown-item"> Register </a> </li>
+                <hr class="dropdown-divider">
+                <li> <a href="login.html" class="dropdown-item"> Login </a> </li>
+                </ul>
+                </li>
+          </nav>
+    </section>
+ 
+<section>
+    <marquee behavior="animation" direction="right"><h3  id="h3">Welcome to Tech-Constructions!!!  Let`s build It</h3></marquee>
+    <section class="row">
+        <div class="col-md-3">
+            <div class="container">
+                <div class="card shadow" id="sidebar"> 
+                    <h3 class="text-center text-danger" style="text-decoration: underline; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Projects From the Agency</h3>
+                    <div class="accordion" id="myAccordion">
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#HousePlans">House Plans</button>    
+                            </h5>
+                            <div id="HousePlans" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Interior Designs</a>
+                                    <hr>
+                                    <a href="#" class="nav-link">Exterior Designs</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link"> In-picture designs</a>
+                                    
+                                </div>                            
+    
+    
+                            </div>
+    
+                        </div>
+    
+    
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#ParkinglotDesigns">Parking lot Designs</button>
+                                
+                            </h5>
+                            <div id="ParkinglotDesigns" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Front End-Designs</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">General View</a>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#HousesForSale">Houses For Sale</button>
+                                
+                            </h5>
+                            <div id="HousesForSale" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Apartments</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Single Family</a>
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Swimmingpooldesigns">Swimming Pool Designs</button>
+                                
+                            </h5>
+                            <div id="Swimmingpooldesigns" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Home Pools Designs</a>
+                                    <hr>
+                                    <a href="#" class="nav-link">Public Pools Design</a>
+                                    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#GardenDesigns">Garden Designs</button>
+                                
+                            </h5>
+                            <div id="GardenDesigns" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Rural Garden Designs</a>
+                                    <hr>
+                                    <a href="#" class="nav-link">Urban Based Garden Designs</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Simple Gardens</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Unique Gardens</a>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        
+    
+    
+                    </div>
+                    <!-- accordion ends -->
+    
+                </div>
+                
+    
+            </div> 
+            
+    
+    
+        </div>
+        <div class="col-md-9">
+            <div class="container">
+                <div class="carousel slide" id="slider" data-bs-ride="carousel">
+                    <!-- carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#slider" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#slider" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#slider" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#slider" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#slider" data-bs-slide-to="4"></li>
+    
+                    </ol>
+    
+      
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Blog-Featured-Images-14-1.jpg" alt="" class="img-size w-100">
+                            <div class="carousel-caption d-block">
+                                <h3 class="text-info colour">Construction Tips</h3>
+                                <p class="text-dark">Lorem ipsum dolor sit amet consectetur.</p>
+                                <button class="btn btn-primary"><a href="#"></a> Find Out</button>
+    
+                            </div>
+    
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/overwater-bungalows.jpg" alt="" class="w-100 img-size">
+                            <div class="carousel-caption d-block">
+                                <h3>Bungalows available</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <button class="btn btn-primary"><a href="#"></a> Find Out</button>
+    
+                            </div>
+    
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/apartment.jpg" alt="" class="w-100 img-size">
+                            <div class="carousel-caption d-block">
+                                <h3>Apartments available</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <button class="btn btn-primary"><a href="#"></a> Find Out</button>
+    
+                            </div>
+    
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/luxury.jpg" alt="" class="w-100 img-size">
+                            <div class="carousel-caption d-block">
+                                <h3>House consultants available</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <button class="btn btn-primary"><a href="#"></a> Find Out</button>
+    
+                            </div>
+    
+                        </div>
+                        <div class="carousel-item" id="banner">
+                            <h2 CLASS="text-dark text-center pt-5" id="h22">!!Ocean House Discount Code & Promo Code June 2023!!</h2>
+                            <p id="p11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita incidunt quibusdam dolorum. Pariatur nulla cumque rerum? Saepe modi dolorum, vero qui nobis cum commodi, maiores exercitationem, eaque veniam assumenda. Necessitatibus dolor nulla consequuntur nobis rem accusamus laboriosam magnam eligendi, </p>
+    
+                            <img src="images/giphy-10.gif" alt="" width="250px" height="200px" id="giphy">
+                         </div>
+    
+                    </div>
+    
+                    <!-- carousel controls(a) -->
+                    <a href="#slider" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#slider" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+        
+    
+    </section>
+    <hr>
+    <h1 class="mt-3 bg-dark text-white p-3 text-center"> Our Portfolio </h1>
+    <section>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="carousel slide" id="slider2" data-bs-ride="carousel">
+                        <!-- carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#slider2" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="4"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="5"></li>
+        
+        
+                        </ol>
+        
+                        <!-- carousel-inner(slideshow)(div) -->
+        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/Swimmingpool2.jpeg" alt="" class="img-size w-100">
+                                <div class="carousel-caption d-block">
+                                    <h3>Pools</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/home-decor-ideas-for-living-room.jpg" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3 class="text-light">Interior Decor</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/asymmetrical designs.jpg" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3>Assymetrical Desisgns</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/doors.webp" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3>Accordion Door Designs</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/ornamentations.jpg" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3>Ornamentations</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/windows2.jpeg" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3>Window Desings</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+        
+        
+                        </div>
+        
+                        <!-- carousel controls(a) -->
+                        <a href="#slider2" class="carousel-control-prev" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#slider2" class="carousel-control-next" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+            </div>
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="carousel slide" id="slider2" data-bs-ride="carousel">
+                        <!-- carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#slider2" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="4"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="5"></li>
+        
+        
+                        </ol>
+        
+                        <!-- carousel-inner(slideshow)(div) -->
+        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/Modernliving2.jpg" alt="" class="img-size w-100">
+                                <div class="carousel-caption d-block">
+                                    <h3 class="text-light">Living Rooms</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/dng.jpg" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3 class="text-info">Dining Designs</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/masterbedroom.jpg" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3>Master Bedroom designs</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/bd3.webp" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3 class="text-danger">Other rooms</h3>
+                                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/balcony.webp" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3>Balcony Designs</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/washroom.webp" alt="" class="w-100 img-size">
+                                <div class="carousel-caption d-block">
+                                    <h3>Washroom Designs</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary">Find Out</button>
+        
+                                </div>
+        
+                            </div>
+        
+        
+                        </div>
+        
+                        <!-- carousel controls(a) -->
+                        <a href="#slider2" class="carousel-control-prev" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#slider2" class="carousel-control-next" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+            </div>
+        
+    
+        </div>
+        
+    
+    </section>
+    <h3 style="text-decoration: overline;" class="bg-warning p-3 mt-4 text-center text-dark">Our Top Sales at Discounted prices.</h3>
+    <section class="row">
+        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/3bedroom.jpg" alt="house 1" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title">3 Bedroom</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>was <strike>$4589.23</strike></p>
+                    <p>Now $3500.87</p>
+                    
+                    <a href="#" class="btn btn-warning">Add to Cart</a>                   
+                </div>
+    
+            </div>
+    
+        </div>        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/2bdrm.jpeg" alt="House 2" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title">2 Bedroom</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>was <strike>$5009.23</strike></p>
+                    <p>Now $4768.87</p>
+                    
+                    <a href="#" class="btn btn-warning">Add to Cart</a>                   
+                </div>
+    
+            </div>
+    
+        </div>
+        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/4bedrom.jpeg" alt="House 3" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title">4 Bedrooms</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>was <strike>$5789.23</strike></p>
+                    <p>Now $5034.87</p>
+                    
+                    <a href="#" class="btn btn-warning">Add to Cart</a>                   
+                </div>
+    
+            </div>
+            
+    
+        </div>
+        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/executive mansion.jpeg" alt="House 4" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title">Executive mansions</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>was <strike>$6789.23</strike></p>
+                    <p>Now $5000.87</p>
+                    
+                    <a href="#" class="btn btn-warning">Add to Cart</a>                   
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    </section>
+    <h3 style="text-decoration: underline;" class="bg-success p-3 mt-4 text-center text-dark "> Luxury serenity. </h3>
+    <section class="row">
+        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/italian.jpeg" alt="pool 1" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title">Italian Pools</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                      
+                </div>
+    
+            </div>
+    
+        </div>        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/carpar.jpeg" alt="House 2" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title">Parkings</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                      
+                </div>
+    
+            </div>
+    
+        </div>
+        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/modern-garden.jpg" alt="House 3" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title">Gardens</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                       
+                </div>
+    
+            </div>
+            
+    
+        </div>
+        <div class="col-md-3">
+            <div class="card elevate text-center">
+                <img src="images/houseideas.jpg" alt="House 4" class="mx-auto img-card-size">
+                <div class="card body">
+                    <h5 class="card-title"> House Ideas</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                     
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    </section>
+    <footer class="row" style="background-color: darkblue;">
+        <section class="row">
+            <div class="col-md-6 pt-3 pb-3 mt-2 mb-2">
+                <div class="d-flex">
+                    <input type="search" placeholder="Search" class="form-control me-6 ms-6">
+                    <button class="btn btn-outline-danger"><i class="fa fa-search"></i></button>
+                    </div>
+    
+    
+            </div>
+            
+    
+        </section>
+    
+    
+        <section class="row">
+    
+            <div class="col-md-3">
+    
+            </div>
+    
+    
+            <div class="col-md-6 text-center mb-4">
+                <a href="https://facebook.com"><i class="fa fa-facebook style-icon"></i></a>
+                <a href="https://twitter.com"><i class="fa fa-twitter style-icon"></i></a>
+                <a href="https://linkedin.com"><i class="fa fa-linkedin style-icon"></i></a>
+                <a href="https://youtube.com"><i class="fa fa-youtube style-icon"></i></a>
+                <a href="https://instagram.com"><i class="fa fa-instagram style-icon"></i></a>
+                <a href="https://rss.com"><i class="fa fa-rss style-icon"></i></a>
+                <a href="https://github.com"><i class="fa fa-github style-icon"></i></a>
+    
+            </div>
+    
+            <div class="col-md-3">
+    
+            </div>
+            <br>
+    
+        </section>
+        
+        <hr class="text-white">
+        <br>
+        
+        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, vel officiis. Vitae fugiat ipsum eum quibusdam optio doloremque. Vitae, architecto! Possimus quasi aspernatur nobis esse dolore optio! Laudantium quaerat autem repudiandae vel, voluptates neque itaque quod error placeat voluptatum rerum, nulla dolor ipsum amet saepe inventore, doloremque quis id! Dolores.</p>
+    
+        <i class="text-center mt-5 mb-3 text-white">&COPY; Copyright  @ Brown Mark 2023</i>
+    
+    
+    </footer>
+    
+</section>
+      
+
+</body>
+</html>

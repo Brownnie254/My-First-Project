@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        nav {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    background: #3fa46a;
+  }
+  
+  nav a {
+    transition: 0.3s ease;
+    background: #3fa46a;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom : 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+  }
+  nav a:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0; 
+  }
+  #img1{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+    </style>
+
+</head>
+<body>
+    <section class="row">
+        <div class="col-md-2">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Construct it" id="img1">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a href="#" class="nav nav-link active">Home </a>
+                    <a href="services.html">Services</a>
+                    <a href="ourprofile.html">Our Profile</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Contact us</a>
+                </div>
+            </nav>
+        </header>
+
+    </div>
+    <div class="col-md-2 margin-right">   
+            <li class="nav-item navbar-nav nav-link dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="dropDown"> <img
+            src="images/Admin.jpeg" alt="" width="50px" height="50px" class="rounded-pill"> User 
+            </a>
+            <ul class="dropdown-menu">
+                <li> <a href="myprofile.html" class="dropdown-item"> <span></span> My Profile</a> 
+                </li>
+                <hr class="dropdown-divider">
+            <li> <a href="#" class="dropdown-item"> Register </a> </li>
+            <hr class="dropdown-divider">
+            
+            <li> <a href="login.html" class="dropdown-item"> Log In</a> </li>
+            <hr class="dropdown-divider">
+            
+            <li> <a href="#" class="dropdown-item"> Sign Out</a> </li>
+            </ul>
+    </div>
+    </section>
+    <section class="row">
+        <div class="col-md-3">
+            <div class="container">
+                <div class="card shadow" id="sidebar"> 
+                    <h3 class="text-center text-danger" style="text-decoration: underline; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Projects From the Agency</h3>
+                    <div class="accordion" id="myAccordion">
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#HousePlans">House Plans</button>    
+                            </h5>
+                            <div id="HousePlans" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Interior Designs</a>
+                                    <hr>
+                                    <a href="#" class="nav-link">Exterior Designs</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link"> In-picture designs</a>
+                                    
+                                </div>                            
+    
+    
+                            </div>
+    
+                        </div>
+    
+    
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#ParkinglotDesigns">Parking lot Designs</button>
+                                
+                            </h5>
+                            <div id="ParkinglotDesigns" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Front End-Designs</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">General View</a>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#HousesForSale">Houses For Sale</button>
+                                
+                            </h5>
+                            <div id="HousesForSale" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Apartments</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Single Family</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Town Home</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Split-level Houses</a>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Swimmingpooldesigns">Swimming Pool Designs</button>
+                                
+                            </h5>
+                            <div id="Swimmingpooldesigns" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Home Pools Designs</a>
+                                    <hr>
+                                    <a href="#" class="nav-link">Public Pools Design</a>
+                                    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#GardenDesigns">Garden Designs</button>
+                                
+                            </h5>
+                            <div id="GardenDesigns" class="collapse accordion-collapse" data-bs-parent="myAccordion">
+                                <div class="accordion-body">
+                                    <a href="#" class="nav-link">Rural Garden Designs</a>
+                                    <hr>
+                                    <a href="#" class="nav-link">Urban Based Garden Designs</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Simple Gardens</a>
+                                    <hr>
+                                    <a href="#"  class="nav-link">Unique Gardens</a>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        
+    
+    
+                    </div>
+                    <!-- accordion ends -->
+    
+                </div>
+                
+    
+            </div> 
+            
+    
+    
+        </div>
+        <div class="col-md-9">
+            <div class="card shadow">
+                <div class="card-body">
+                    <!-- tabs here -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="tabs.html" class="nav-link active"> Overview </a>
+                             
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> Edit Profile</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> Settings </a>
+
+                        </li>
+                        <li class="nav-item">
+                        
+                            <a href="change.html" class="nav-link">Change Password</a>
+
+                        </li>
+
+                    </ul>
+                    <div>
+                        <h3>Overview</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ad. Fugiat sed sit praesentium sunt perspiciatis dolorem aliquid pariatur delectus!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus incidunt distinctio, praesentium cupiditate laborum nemo fugit eligendi tempora debitis. Natus vitae necessitatibus beatae quisquam, illum error. Numquam, modi ullam?</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    
+    </section>
+    
+</body>
+</html>
